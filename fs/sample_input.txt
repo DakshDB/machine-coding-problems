@@ -1,0 +1,18 @@
+mkdir /docs
+mkdir /docs/work
+addFile /docs/work/notes.txt hello
+addFile /docs/readme.md welcome
+ls /docs
+ls /docs/work
+cat /docs/work/notes.txt
+find notes.txt
+mv /docs/work /archive
+ls /
+cat /archive/notes.txt
+rm /archive
+ls /
+mkdir /docs
+cat /docs
+mkdir /a/b/c
+mv /docs /docs/inner
+exit

@@ -1,0 +1,11 @@
+readme.md,work
+notes.txt
+hello
+/docs/work/notes.txt
+archive,docs
+hello
+docs
+Already exists: /docs
+Is a directory: /docs
+No such file or directory: /a
+Invalid move: /docs into its own subtree
